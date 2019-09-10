@@ -1,0 +1,120 @@
+body {
+    color: darkblue;
+    font-family: Verdana, sans-serif;
+    background-image: linear-gradient(black, purple, white);
+    background-repeat: no-repeat;
+}
+
+.topnavbar {
+    color: rgb(73, 1, 73);
+    font-variant: small-caps;
+    text-align: center;
+    background-color: rgb(103, 145, 98, 0.95);
+    padding: 5px;
+    font-size: 2em;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: Monospace;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 5px 5px 10px 5px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px 5px 10px 5px;
+}
+
+img {
+	border: 1px solid black;
+    padding: 1px;
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.article-title {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    padding: 5px 5px 10px 5px;
+    background-color: rgb(103, 145, 98, 0.80)
+}
+
+main {
+	display: grid;
+    grid-template-rows: .5fr 1fr 2fr;
+    height: 200px;
+    grid-row-gap: 5px;
+    align-content: space-between;
+    justify-content: center;
+    grid-column-gap: 15px;
+    margin: 10px 50px 30px 50px;
+}
+
+button {
+	color: red;
+	letter-spacing: 5px;
+	padding: 10px;
+	border: 2px solid orange;
+    background-color: LightYellow;
+    border-radius: 25px;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {background-color: yellow}
+
+button:active {
+    background-color: darkorange;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+  }
+
+.box {
+    color: maroon;
+	background-color: lightgrey;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    grid-column: 1 / 3;
+    text-align: center;
+    padding: 0px;
+}
+
+.sidebar {
+    grid-row: 2 / 6;
+    width: 100px;
+}
+
+.blog {
+    background-image: url("CarolineThree.jpg");
+    background-position: center;
+}
+
+.footer {
+    grid-column: 1 / 3;
+    text-align: center;
+    padding: 0px;
+}
+

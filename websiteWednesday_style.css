@@ -78,7 +78,7 @@ li a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: rgb(112, 0, 186);
     overflow: hidden;
     width: 100%;
     height: 0%;
@@ -108,7 +108,7 @@ li a:hover {
     grid-gap: 10px;
     margin-top: 10px;
     padding: 10px;
-    background-color: hsla(255, 50%, 70%, 1.0);
+    background-color: rgb(17, 117, 62);
     border-radius: 5px;
 }
 
